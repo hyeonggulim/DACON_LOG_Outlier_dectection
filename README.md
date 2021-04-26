@@ -26,3 +26,7 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 - 문장의 전처리를 추가적으로 진행하여 단어만 남게 작업
 - 실제 영어 단어인지 아닌지를 파악하여 아닌 경우도 제거
 - 등급별로 구분이 아닌 문장의 타입별을 구분하여 오토인코더를 활용시 성능이 훨씬 개선
+
+4/26
+- 데이콘으로 부터 Train, test 의 단어를 비교하는 것은 Data leakage 라는 답변을 받음
+- Train test 단어 비교가 아닌 train 단어를 train,test 공통으로 삭제하는 방향으로 
