@@ -30,3 +30,12 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 4/26
 - 데이콘으로 부터 Train, test 의 단어를 비교하는 것은 Data leakage 라는 답변을 받음
 - Train test 단어 비교가 아닌 train 단어를 train,test 공통으로 삭제하는 방향으로 
+
+4/27
+- 단어가 아닌 이상한 영어 단어를 삭제, train중에서 빈도수가 높은 단어는 큰의미 없다고 판단하여 삭제
+- 단어가 영어단어를 뽑는 과정에서 시간이 너무 오래걸림(words.words()), 빠른 방법 필요
+
+4/29
+- 기존의 모든 문장을 각각 영단어 여부 체크 방식 -> 중복된 단어들이 많은데 일일히 체크 -> 중복제거 후에 단어여부 체크 (시간 향상)
+- 베이스라인에서 의미 없는 단어들 제거 + 2글자 이하 제거한 전처리 (onlyword_train,test)로 0.885 정도로 성능 향상 -> 무의미한 단어 제거 효과
+
