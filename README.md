@@ -43,4 +43,5 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 4/30
 - 대소 문자 구별을 하게 되면, 7 이외에 다른 것들도 방해하는 경우가 많은 것으로 파악..
 - 여러 모델을 섞어서 7을 분류하는 것도 하나의 방법일듯.
+- Tokenizer 의 기능들 활용 계획 ( max_df, min_df, n-gram 등)
 
