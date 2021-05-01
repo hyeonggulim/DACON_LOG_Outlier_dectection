@@ -45,3 +45,7 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 - 여러 모델을 섞어서 7을 분류하는 것도 하나의 방법일듯.
 - Tokenizer 의 기능들 활용 계획 ( max_df, min_df, n-gram 등)
 
+5/1
+- n-gram으로 토큰화 하는  feature 추가시 오히려 성능저하로 이어짐
+- 더이상의 전처리 및 threshold 설정은 무의미해 보임 -> 7을 따로 뽑아낼수 있는 방법 고민해보기
+
