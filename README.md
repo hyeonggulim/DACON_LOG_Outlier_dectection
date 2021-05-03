@@ -49,3 +49,5 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 - n-gram으로 토큰화 하는  feature 추가시 오히려 성능저하로 이어짐
 - 더이상의 전처리 및 threshold 설정은 무의미해 보임 -> 7을 따로 뽑아낼수 있는 방법 고민해보기
 
+5/5
+
