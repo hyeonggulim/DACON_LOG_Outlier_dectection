@@ -50,4 +50,6 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 - 더이상의 전처리 및 threshold 설정은 무의미해 보임 -> 7을 따로 뽑아낼수 있는 방법 고민해보기
 
 5/5
+- 팀 병합 완료
+- threshold 등급별로 조절 해서 조금 상승 
 
