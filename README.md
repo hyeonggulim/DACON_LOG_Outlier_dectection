@@ -54,3 +54,5 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 - threshold 등급별로 조절 해서 조금 상승 
 - 2,4,6 등급을 7을 잘 구분함, 0,1 등급에서 기존과 7의 유사도가 높아서 구분이 되지 않음
 
+
+5/8
