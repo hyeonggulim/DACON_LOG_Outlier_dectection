@@ -57,3 +57,8 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 
 5/8
 - threshold 를 등급별로 조절하는 것도 더 이상 상승 X -> 개수가 많은 0,1,3 의 등급에서 많이 섞여있음
+
+
+5/10
+- 기존의 threshold를 임의로 등급별로 잡는 방법보다 오토인코더를 통한 방식으로 91정도의 성능 확인
+- 오토인코더로 reconstruction error를 test에 나와있는 것중 train에 있는 value 값 제거 -? 모여 있는 점들이 악성.
