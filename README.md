@@ -60,5 +60,12 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 
 
 5/10
-- 기존의 threshold를 임의로 등급별로 잡는 방법보다 오토인코더를 통한 방식으로 91정도의 성능 확인
-- 오토인코더로 reconstruction error를 test에 나와있는 것중 train에 있는 value 값 제거 -? 모여 있는 점들이 악성.
+- 기존의 threshold를 임의로 등급별로 잡는 방법말고 오토인코더를 통한 방식으로 91정도의 성능 확인
+- 오토인코더로 reconstruction error를 test에 나와있는 것중 train에 있는 value 값 제거 -? 모여 있는 점들이 악성
+- 모여 있는 것을 보는거 자체가 개별적으로 볼 수 없기 떄문에 Data leakage라고 결론.
+- vaildation을 참고하여 threshold를 잡는 것이 규칙에는 어긋나지 않다는 것을 질문게시판에서 확인 (현재는 성능이 제일 좋음)
+
+5/11
+- 코드 제출을 위해서 코드 정리 중에 실수한 부분 발견(단어들을 많이 지워서 아예 없어지는 경우가 발생하는데 이는 등급분류가 안되는 치명적 오류 발생)
+
+
