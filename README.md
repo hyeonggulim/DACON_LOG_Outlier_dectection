@@ -76,5 +76,6 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 
 
 5/14
-- 
+- private 1등으로 대회 종료
+- 점수가 소폭 상승
 
