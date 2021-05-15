@@ -7,7 +7,9 @@ https://www.dacon.io/competitions/official/235717/overview/description/
 ### 1. 데이터 전처리 코드
 
 ### 2. 모델링 코드로 이루어져 있습니다.
-
+1. EDA.ipython [다양한 방법으로 데이터를 접근해 봤던 방법입니다.]
+2. pattern.ipython [7등급 단어들의 pattern을 찾았던 파일입니다.(대회에서는 직접 사용 불가능)]
+3. final.ipython [최종 결과물이 들어 있는 파일입니다(전처리~모델링)]
 
 
 #### 날짜별 고민했던 내용
